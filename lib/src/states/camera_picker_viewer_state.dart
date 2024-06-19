@@ -282,7 +282,7 @@ class CameraPickerViewerState extends State<CameraPickerViewer> {
       onPressed: () {
         // Navigate to the new ShareMediaPage in FlutterFlow
         Navigator.of(context).push(MaterialPageRoute(
-          builder: (context) => Stage1Phase2(),
+          builder: (context) => stage1_phase2(),
         ));
       },   
       materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
